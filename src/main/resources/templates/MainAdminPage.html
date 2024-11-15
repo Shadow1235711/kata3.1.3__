@@ -143,7 +143,7 @@
                                                                        required minlength="2" maxlength="30"
                                                                        style="height: 50px; width: 300px; margin: 0 auto"/>
                                                             </div>
-                                                            <div class="mb-3 text-center fw-normal">
+                                                            <div class="mb-3 text-center fw-bold">
                                                                 <label for="passwordUpdate"
                                                                        class="col-form-label">Password</label>
                                                                 <input type="password" th:value="${user.getPassword}"
@@ -251,7 +251,7 @@
                                                             </div>
                                                             <div class="mb-3 text-center fw-bold">
                                                                 <label class="container-fluid"
-                                                                       for="rolesUpdate">Role</label>
+                                                                       for="rolesDelete">Role</label>
                                                                 <select class="form-control form-control-sm"
                                                                         id="rolesDelete" name="roles" multiple
                                                                         th:value="${user.getRole()}"
